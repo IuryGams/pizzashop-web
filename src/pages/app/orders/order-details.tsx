@@ -43,12 +43,6 @@ export function OrderDetails() {
                             </TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="text-muted-foreground">E-mail</TableCell>
-                            <TableCell className="flex justify-end">
-                                analarissa@gmail.com
-                            </TableCell>
-                        </TableRow>
-                        <TableRow>
                             <TableCell className="text-muted-foreground">Realizado há</TableCell>
                             <TableCell className="flex justify-end">
                                 há 3 minutos
