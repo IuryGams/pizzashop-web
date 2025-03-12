@@ -24,12 +24,12 @@ export function OrderTableFilters() {
                 </SelectContent>
             </Select>
 
-            <Button type="submit" variant="secondary" size="xs" className="cursor-pointer rounded">
+            <Button type="submit" variant="secondary" size="xs">
                 <Search className="h-4 w-4 mr-2" />
                 Filtrar resultados
             </Button>
 
-            <Button type="button" variant="outline" size="xs" className="cursor-pointer rounded" >
+            <Button type="button" variant="outline" size="xs" >
                 <X className="h-4 w-4 mr-2" />
                 Remover resultados
             </Button>
