@@ -7,7 +7,7 @@ export function AccountMenu() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant={"outline"} className="flex items-center gap-2 select-none cursor-pointer rounded" >
+                <Button variant={"outline"} className="flex items-center gap-2 select-none" >
                     Pizza Shop
                     <ChevronDown />
                 </Button>

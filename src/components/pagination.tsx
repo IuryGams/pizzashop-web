@@ -22,19 +22,19 @@ export function Pagination({ pageIndex, perPage, totalCount }: PaginationProps) 
                     Página {pageIndex + 1} de {pages}
                 </span>
                 <div className="flex items-center gap-2">
-                    <Button title="Primeira página" variant="outline" className="h-8 w-8 p-0 cursor-pointer rounded">
+                    <Button title="Primeira página" variant="outline" className="h-8 w-8 p-0">
                         <ChevronsLeft className="h-4 w-4" />
                         <span className="sr-only" >Primeira página</span>
                     </Button>
-                    <Button title="Página anterior" variant="outline" className="h-8 w-8 p-0 cursor-pointer rounded">
+                    <Button title="Página anterior" variant="outline" className="h-8 w-8 p-0">
                         <ChevronLeft className="h-4 w-4" />
                         <span className="sr-only" >Página anterior</span>
                     </Button>
-                    <Button title="Próxima página" variant="outline" className="h-8 w-8 p-0 cursor-pointer rounded">
+                    <Button title="Próxima página" variant="outline" className="h-8 w-8 p-0">
                         <ChevronRight className="h-4 w-4" />
                         <span className="sr-only" >Próxima página</span>
                     </Button>
-                    <Button title="Última página" variant="outline" className="h-8 w-8 p-0 cursor-pointer rounded">
+                    <Button title="Última página" variant="outline" className="h-8 w-8 p-0">
                         <ChevronsRight className="h-4 w-4" />
                         <span className="sr-only" >Última página</span>
                     </Button>

@@ -10,7 +10,7 @@ export function OrderTableRow() {
             <TableCell>
                 <Dialog>
                     <DialogTrigger asChild>
-                        <Button variant="outline" size="xs" className="cursor-pointer rounded">
+                        <Button variant="outline" size="xs">
                             <Search className="h-3 w-3" />
                             <span className="sr-only">Detalhes do pedido</span>
                         </Button>
@@ -29,13 +29,13 @@ export function OrderTableRow() {
             <TableCell className="font-medium" >Iury Gama de Sousa Menezes</TableCell>
             <TableCell className="font-medium" >R$ 149,90</TableCell>
             <TableCell>
-                <Button variant="outline" className="cursor-pointer rounded" size="xs">
+                <Button variant="outline" size="xs">
                     <ArrowRight className="mr-2 h-3 w-3" />
                     Aprovar
                 </Button>
             </TableCell>
             <TableCell>
-                <Button variant="ghost" className="cursor-pointer rounded" size="xs">
+                <Button variant="ghost" size="xs">
                     <X className="mr-2 h-3 w-3" />
                     Cancelar
                 </Button>

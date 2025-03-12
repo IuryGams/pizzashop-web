@@ -36,7 +36,7 @@ export function SignIn() {
     return (
         <>
             <div className="p-8">
-                <Button variant={"outline"} className="rounded-xs" asChild>
+                <Button variant={"outline"} asChild>
                     <Link to="/sign-up" className="absolute right-8 top-8">
                         Novo estabelecimento
                     </Link>
@@ -63,7 +63,7 @@ export function SignIn() {
                             />
                         </div>
 
-                        <Button variant={"destructive"}  className="w-full cursor-pointer rounded-xs" disabled={isSubmitting} type="submit">
+                        <Button variant={"destructive"}  className="w-full" disabled={isSubmitting} type="submit">
                             Acessar painel
                         </Button>
 
